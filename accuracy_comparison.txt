@@ -1,0 +1,86 @@
+##################
+
+##xgboost
+
+
+trainset = ourData
+feature_set = pi, mw, gravy, g3, fickett score
+parameters = (learning_rate=0.1, max_depth = 7, min_child_weight = 0, gamma = 0, subsample = 0.9, colsample = 0.6)
+
+Accuracy human: 95.80%
+Accuracy mouse: 93.81%
+Accuracy zebrafish: 86.22%
+Accuracy gen: 92.51%
+Accuracy mouse gen: 96.09%
+
+
+##lncfinder
+
+trainset = our data
+
+Accuracy human: 96.02%
+Accuracy mouse: 92.53%
+Accuracy zebrafish: 91.40%
+Accuracy gen: 91.02%
+Accuracy mouse gen: 92.22%
+
+
+
+
+##################
+
+##xgboost
+
+trainset = CPC2
+feature_set = pi, mw, gravy, g3, fickett score
+parameters = (gamma = 0.1,max_depth=10,min_child_weight=0,subsample =0.9,colsample=0.6)
+
+Accuracy human: 97.00%
+Accuracy mouse: 90.22%
+Accuracy zebrafish: 86.59%
+Accuracy gen: 89.04%
+Accuracy mouse gen: 89.18%
+
+##lncfinder
+
+trainset = CPC2
+
+Accuracy human: 96.38%
+Accuracy mouse: 91.31%
+Accuracy zebrafish: 87.41%
+Accuracy gen: 85.13%
+Accuracy mouse gen: 92.22%
+
+###################
+
+##xgboost
+
+trainset = lncfinder
+feature_set = pi, mw, gravy, g3, fickett score
+parameters = (gamma = 0,max_depth=4,min_child_weight=2,colsample=0.8,subsample=0.6)
+
+Accuracy human: 96.22%
+Accuracy mouse: 90.53%
+Accuracy zebrafish: 87.33%
+Accuracy gen: 87.73%
+Accuracy mouse gen: 89.14%
+
+##lncfinder
+
+trainset = lncfinder
+
+Accuracy human: 96.76%
+Accuracy mouse: 92.28%
+Accuracy zebrafish: 91.80%
+Accuracy gen: 89.34%
+Accuracy mouse gen: 92.22%
+
+
+
+
+#####################
+
+
+
+
+
